@@ -1,0 +1,8 @@
+.pixi/
+__pycache__/
+*.py[cod]
+.DS_Store
+datasets/
+poses.json
+.env
+.env.*

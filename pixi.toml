@@ -1,0 +1,13 @@
+[workspace]
+name = "so-arm101"
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[dependencies]
+python = "3.12.*"
+
+[pypi-dependencies]
+lerobot = { version = "==0.7.0", extras = ["hardware", "feetech", "dataset"] }
+
+[tasks]
+lerobot-record-from-follower = "python record_from_follower.py"
